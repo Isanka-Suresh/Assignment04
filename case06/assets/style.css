@@ -1,0 +1,81 @@
+body{
+    background-image: url("/case06/assets/resource/sky.jpg");
+}
+
+div{
+    height: 70vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+
+}
+
+div>div:first-child{
+    height: 33vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    background-image: url("/case06/assets/resource/city.png");
+}
+
+div>div:nth-child(2){
+    height: 37vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-image: url("/case06/assets/resource/road.jpg");
+}
+
+div>div:nth-child(3){
+    height: 20vh;
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: cover;
+    background-image: url("/case06/assets/resource/car.png");
+}
+
+div>div:nth-child(4){
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 16%;
+    top: 18%;
+    margin: auto;
+    background-image: url("/case06/assets/resource/wheel.png");
+}
+
+div>div:nth-child(5){
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    left: 14.5%;
+    right: 0;
+    top: 18%;
+    margin: auto;
+    background-image: url("/case06/assets/resource/wheel.png");
+}
+
+.wheel{
+    animation-name: moving;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(1440deg);
+    }
+}

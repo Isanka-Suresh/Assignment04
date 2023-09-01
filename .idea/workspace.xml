@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4374a2b-d482-4d0d-b777-602f68658580" name="Changes" comment="add case01">
-      <change afterPath="$PROJECT_DIR$/case02/index.html" afterDir="false" />
+    <list default="true" id="b0cc06a7-2373-44bb-b1b3-01fb893f27aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/case03/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case04/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case05/assets/img/slide1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case05/assets/img/slide2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case05/assets/img/slide3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case05/assets/img/slide4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case05/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/assets/resource/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/assets/resource/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/assets/resource/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/assets/resource/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/assets/resource/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,8 +46,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2UVcPmWLYTqIrDjPGdKZQNlzDtj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2UjeEa8NoswWJMOkqafEV03CAvn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,11 +54,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/IJSE/assingment/4.IT/Assignment04",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,39 +67,24 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IJSE\assingment\4.IT\Assignment04" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IJSE\assingment\4.IT\Assignment04\case01\assets" />
+      <recent name="E:\IJSE\assingment\4.IT\Assignment04\case06\assets\resource" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4374a2b-d482-4d0d-b777-602f68658580" name="Changes" comment="" />
-      <created>1693028168840</created>
+      <changelist id="b0cc06a7-2373-44bb-b1b3-01fb893f27aa" name="Changes" comment="" />
+      <created>1693457305743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1693028168840</updated>
-      <workItem from="1693028169822" duration="6113000" />
+      <updated>1693457305743</updated>
+      <workItem from="1693457306810" duration="631000" />
+      <workItem from="1693542659537" duration="3918000" />
     </task>
-    <task id="LOCAL-00001" summary="add case01">
-      <option name="closed" value="true" />
-      <created>1693031732372</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1693031732372</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add case01" />
-    <option name="LAST_COMMIT_MESSAGE" value="add case01" />
   </component>
 </project>

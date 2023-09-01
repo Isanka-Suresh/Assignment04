@@ -1,0 +1,42 @@
+
+
+div{
+    background-color: blue;
+    border-radius: 10px;
+    height: 50px;
+    width: 125px;
+    animation-name: colorotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes colorotate {
+    0%{
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+    25%{
+        margin-top: 0;
+        margin-left: calc(100% - 125px);
+        background-color: yellow;
+        transform: rotate(360deg);
+    }
+    50%{
+        margin-left: calc(100% - 125px);
+        margin-top:calc(45% - 50px);
+        background-color: red;
+    }
+    75%{
+        margin-top:calc(45% - 50px);
+        margin-left: 0;
+        background-color:deeppink;
+    }
+    100%{
+        margin-top: 0;
+        margin-left: 0;
+        background-color: orange;
+    }
+}
