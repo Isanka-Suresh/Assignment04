@@ -1,81 +1,92 @@
 body{
+    overflow-x: hidden;
+}
+
+section>div:first-child{
     background-image: url("/case06/assets/resource/sky.jpg");
-}
-
-div{
-    height: 70vh;
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-
-}
-
-div>div:first-child{
-    height: 33vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    background-image: url("/case06/assets/resource/city.png");
-}
-
-div>div:nth-child(2){
-    height: 37vh;
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-    background-image: url("/case06/assets/resource/road.jpg");
-}
-
-div>div:nth-child(3){
-    height: 20vh;
-    width: 25vw;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    background-position: center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+section>div:nth-child(2){
+    background-image: url("/case06/assets/resource/road.jpg");
+    background-position: center;
+    /*background-size: cover;*/
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+    animation: background  8s reverse ease-in infinite;
+    animation-delay: 3s;
+}
+section>div:nth-child(3){
+    background-image: url("/case06/assets/resource/city.png");
+    background-position: center;
+    /*background-size: cover;*/
+    width: 100vw;
+    height: 25vh;
+    position: absolute;
+    bottom: 30vh;
+    animation: background  8s reverse ease-in infinite;
+    animation-delay: 3s;
+}
+section>div:last-child{
     background-image: url("/case06/assets/resource/car.png");
-}
-
-div>div:nth-child(4){
-    height: 70px;
-    width: 70px;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    width: 25vw;
+    height: 20vh;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 16%;
-    top: 18%;
-    margin: auto;
+    bottom: 13vh;
+    left: 40vw;
+}
+section>div:last-child>div:first-child{
     background-image: url("/case06/assets/resource/wheel.png");
-}
+    background-position: center;
+    background-size: cover;
+    width: 4.5vw;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 11vh;
+    left: 2.2vw;
+    animation: wheels_animation  8s alternate linear infinite;
+    animation-delay: 3s;
 
-div>div:nth-child(5){
-    height: 70px;
-    width: 70px;
-    background-size: contain;
-    position: absolute;
-    bottom: 0;
-    left: 14.5%;
-    right: 0;
-    top: 18%;
-    margin: auto;
+}
+section>div:last-child>div:last-child{
     background-image: url("/case06/assets/resource/wheel.png");
-}
+    background-position: center;
+    background-size: cover;
+    width: 4.5vw;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 2vh;
+    left: 17.5vw;
+    animation: wheels_animation  8s alternate linear infinite;
+    animation-delay: 3s;
 
-.wheel{
-    animation-name: moving;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
 }
+@keyframes background {
+    from{
+        width: 100vw;
 
-@keyframes moving {
-    0%{
-        transform: rotate(0deg);
     }
-    100%{
-        transform: rotate(1440deg);
+    to{
+        width:500vw;
+
     }
+
+}
+@keyframes wheels_animation {
+    1%{
+
+        transform: rotate(360deg);
+
+    }
+    70%{
+        transform: rotate(-140deg);
+    }
+
 }
